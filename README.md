@@ -7,9 +7,9 @@ A concise Sass Library ,Less is more:一个简洁的Sass库,尽可能的简洁,�
 > 通过"-"来连接两个属性
 
 ***
-## `fZ = font-size `  
-## `lH = line-height`
-## `mT = margin-top`
+`fZ = font-size `  
+`lH = line-height`  
+`mT = margin-top`  
 > 通过驼峰命名方式来简写一个加长属性
 
 ***
