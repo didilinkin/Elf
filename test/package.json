@@ -1,0 +1,20 @@
+{
+  "name": "Elf-testStyle",
+  "version": "0.0.1",
+  "description": "Elf-testStyle;Elf测试样式",
+  "main": "gulpfile.js",
+  "repository": {
+    "url": "Elf",
+    "type": "git"
+  },
+  "author": "yanxiaodi 929213769@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch-path": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}
