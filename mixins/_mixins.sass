@@ -1,0 +1,14 @@
+=ell
+    overflow: hidden
+    -ms-text-overflow: ellipsis
+    text-overflow: ellipsis
+    white-space: nowrap
+=ell-line($lH,$lineNum)
+    overflow: hidden
+    -ms-text-overflow: ellipsis
+    text-overflow: ellipsis
+    white-space: nowrap
+    +lH($lH)
+    display: -webkit-box
+    -webkit-line-clamp: $lineNum
+    -webkit-box-orient: vertical
