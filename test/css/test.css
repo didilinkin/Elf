@@ -1,5 +1,64 @@
+@charset "UTF-8";
+/* 本文件是用来测试Elf库的 */
+.aa {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.ee {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute; }
+
+.aa {
+  *height: 1%; }
+  .aa:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden; }
+
 a {
   overflow: hidden;
   -ms-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap; }
+
+.aa {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; }
+
+.cc {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  border-width: 20px;
+  cursor: pointer;
+  border-style: dashed dashed solid dashed;
+  border-color: transparent transparent red transparent;
+  border-top: none; }
+
+.bb {
+  /* 如果浏览器不支持rem将使用这个规则进行覆盖 */
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+.dd {
+  opacity: 14;
+  /* IE8 */
+  filter: alpha(opacity=1400); }

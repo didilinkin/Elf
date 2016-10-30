@@ -1,5 +1,23 @@
 @charset "utf-8"
+/* 本文件是用来测试Elf库的 */
+
 //引入 混合
 @import "../../mixinsDir/mixins"
+
+
 a
     @extend %ell
+.aa
+    +ell-line(15px,4)
+    @extend %dib
+    @extend %clearfix
+
+.cc
+    +arrow(top,20px,red)
+.bb
+    +fZ(14px)
+
+.dd
+    +opacity(14)
+.ee
+    @extend %displayNone
