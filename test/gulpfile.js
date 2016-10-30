@@ -1,7 +1,7 @@
 var gulp = require('gulp'), 						// gulp
 	util = require('gulp-util'), 					// gulp常用的工具库——gulp-util
 	// CSS预处理任务
-	sass = require('gulp-sass'), 					// sass编译——gulp-sass
+	sass = require('gulp-ruby-sass'), 					// sass编译——gulp-sass
 	// 特殊任务
 	watchPath = require('gulp-watch-path');		    // watch监控——gulp-watch-path
 

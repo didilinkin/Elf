@@ -16,7 +16,7 @@ A concise Sass Library ,Less is more;
 # Commonly used Sass Mixins / 常用Sass Mixins
 1. 省略号，当超过宽度时，显示省略号
 ```sass
-=ell
+%ell
      overflow: hidden
      -ms-text-overflow: ellipsis
      text-overflow: ellipsis
