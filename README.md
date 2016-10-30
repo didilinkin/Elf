@@ -6,6 +6,12 @@ A concise Sass Library ,Less is more;
 Elf库的使用场景为: IE8以上浏览器/移动端页面; 无视IE8以下浏览器兼容问题
 
 全面支持CSS3特性 与 修复浏览器前缀等兼容问题的重任 将交给下一个重量级封装库——Viking(什么时候有空写就不知道了.)
+
+##### 同等效果下,少写每个字符都值得欢呼,极简是Elf的目的
+
+##### 然而如果不能达到语义化,少写地每个字符都是一种罪恶,易于理解是Elf的灵魂
+
+##### 希望Elf简单又好用,快捷又方便——我爱缩进语法,去TM SCSS
 ***
 # Shorthand Naming Conventions / 简写命名规范
 
@@ -46,7 +52,17 @@ Elf库的使用场景为: IE8以上浏览器/移动端页面; 无视IE8以下浏
      -webkit-box-orient: vertical
 ```
 
-两侧对其/首行缩进2格
+##### 两侧对其/首行缩进2格
+##### 重置样式表
+##### IE8以上的hack
+##### UI框架: QMUI/Foundation/Bootstrap4/AmazeUI Touch
+##### 根据[链接](http://www.w3school.com.cn/css/css_list.asp)整理 可简写的样式
+* CSS样式(背景/文本/字体/列表轮廓)
+* 框模型(内边框/外边框/边框) Flex盒子
+* CSS定位(相对/绝对/浮动)
+* CSS高级(对齐/尺寸/分类/图片透明)
+* CSS3动画
+看待问题的角度不同,往往就会有不同的解决办法
 ### 初步将参考Compass项目整理项目结构目录
 
 1. CSS3
