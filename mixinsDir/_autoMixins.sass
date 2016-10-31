@@ -11,3 +11,28 @@
     /* 如果浏览器不支持rem将使用这个规则进行覆盖 */
     font-size: $size
     font-size: ($size/16px) * 1rem
+
+// CSS样式/背景
+=bC($backgroundColor)
+    background-color: $backgroundColor
+=bP($backgroundPositionX,$backgroundPositionY)
+    background-position: $backgroundPositionX $backgroundPositionY
+// CSS样式/文本
+=lS($letterSpacing)
+    // 设置字符间距。
+    letter-spacing: $letterSpacing
+=tD($textDecoration:none)
+    // 向文本添加修饰
+    text-decoration: $textDecoration
+// CSS样式/字体
+=fW($fontWeight)
+    font-weight: $fontWeight
+// CSS样式/列表
+    比较特殊,完全简写不容易记忆
+    所以使用简单描述:常用值作为默认变量值
+=listST($listStyleType:none)
+    list-style-type: $listStyleType
+// CSS样式/轮廓
+=oC($outlineColor)
+    // 轮廓颜色
+    outline: $outlineColor

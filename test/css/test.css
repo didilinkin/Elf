@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* 本文件是用来测试Elf库的 */
-.aa {
+.clearfix {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
 
-.ee {
+.displayNone {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -15,9 +15,9 @@
   clip: rect(0, 0, 0, 0);
   position: absolute; }
 
-.aa {
+.clearfix {
   *height: 1%; }
-  .aa:after {
+  .clearfix:after {
     clear: both;
     content: '.';
     display: block;
@@ -25,13 +25,13 @@
     line-height: 0;
     overflow: hidden; }
 
-a {
+ell {
   overflow: hidden;
   -ms-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.aa {
+.clearfix {
   overflow: hidden;
   -ms-text-overflow: ellipsis;
   text-overflow: ellipsis;
@@ -41,7 +41,7 @@ a {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical; }
 
-.cc {
+.arrow {
   width: 0;
   height: 0;
   line-height: 0;
@@ -53,12 +53,33 @@ a {
   border-color: transparent transparent red transparent;
   border-top: none; }
 
-.bb {
+.fZ {
   /* 如果浏览器不支持rem将使用这个规则进行覆盖 */
   font-size: 14px;
   font-size: 0.875rem; }
 
-.dd {
+.opacity {
   opacity: 14;
   /* IE8 */
   filter: alpha(opacity=1400); }
+
+.bC {
+  background-color: #000; }
+
+.bP {
+  background-position: top right; }
+
+.lS {
+  letter-spacing: -5px; }
+
+.tD {
+  text-decoration: none; }
+
+.fW {
+  font-weight: 500; }
+
+.listST {
+  list-style-type: none; }
+
+.oC {
+  outline: #FF0; }
