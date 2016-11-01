@@ -67,7 +67,7 @@ Elf库的使用场景为: IE8以上浏览器/移动端页面; 无视IE8以下浏
 ##### UI框架: QMUI/Foundation/Bootstrap4/AmazeUI Touch
 ##### 根据[链接](http://www.w3school.com.cn/css/css_list.asp)整理 可简写的样式
 * CSS样式(背景/文本/字体/列表/轮廓) ——完成
-* 框模型(内边框/外边框/边框) Flex盒子
+* 框模型(内边框/外边框/边框) Flex盒子 ——完成(Flex盒子未完成)
 * CSS定位(相对/绝对/浮动)
 * CSS高级(对齐/尺寸/分类/图片透明)
 * CSS3动画

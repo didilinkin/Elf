@@ -83,3 +83,27 @@ ell {
 
 .oC {
   outline: #FF0; }
+
+.pB {
+  padding-bottom: 10px; }
+
+.pL {
+  padding-left: 11px; }
+
+.pR {
+  padding-right: 12px; }
+
+.pT {
+  padding-top: 13px; }
+
+.mB {
+  margin-bottom: 20px; }
+
+.mL {
+  margin-left: 21px; }
+
+.mR {
+  margin-right: 22px; }
+
+.mT {
+  margin-top: 23px; }
